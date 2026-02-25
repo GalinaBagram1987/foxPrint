@@ -1,6 +1,6 @@
 const enTransl = {
   translation: {
-    headerOne: {
+    header: {
       companyName: 'FOX PRINT',
       address: 'Vladivostok, Snegovaya str., 73',
       phoneOne: '8-924-246-45-37',
@@ -10,7 +10,7 @@ const enTransl = {
       menuThree: 'PORTFOLIO',
       menuFour: 'CONTACTS',
     },
-    headerTwo: {
+    home: {
       quote: 'IF YOU ARE NOT NOTICED, YOU ARE LEFT WITH NOTHING. YOU NEED TO BE NOTICED.',
       author: 'Leo Burnett. Founder of one of the world\'s largest advertising agencies, Leo Burnett Worldwide',
     },

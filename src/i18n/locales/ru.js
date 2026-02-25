@@ -1,6 +1,6 @@
 const ruTransl = {
   translation: {
-    headerOne: {
+    header: {
       companyName: 'ФОКС ПРИНТ',
       address: 'г. Владивосток, ул. Снеговая, д.73',
       phoneOne: '8-924-246-45-37',
@@ -10,7 +10,7 @@ const ruTransl = {
       menuThree: 'ПОРТФОЛИО',
       menuFour: 'КОНТАКТЫ',
     },
-    headerTwo: {
+    home: {
       quote: 'ЕСЛИ ВАС НЕ ЗАМЕТИЛИ, ВЫ ОСТАНЕТЕСЬ НИ С ЧЕМ. ВАМ НУЖНО, ЧТОБЫ ВАС ЗАМЕТИЛИ.',
       author: 'Лео Бернет. Основатель одного из крупнейших рекламных агенств в мире Leo Burnett Worldwide',
     },
