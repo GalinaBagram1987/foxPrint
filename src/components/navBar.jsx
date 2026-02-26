@@ -44,9 +44,9 @@ const NavBar = () => {
   };
 
   return(
-   <nav className="navbar navbar-expand-lg navbar-light bg-light">
+   <nav className="navbar navbar-expand-lg navbar-dark">
      <div className="collapse navbar-collapse" id="navbarNav">
-      <ul className="navbar-nav">
+      <ul className="navbar-nav d-flex align-items-center justify-content-between w-100">
       {sections.map((item) => (
         <li className="nav-item" key={item.id}>
           <button

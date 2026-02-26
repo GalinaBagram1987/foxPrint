@@ -2,7 +2,7 @@ const enTransl = {
   translation: {
     header: {
       companyName: 'FOX PRINT',
-      address: 'Vladivostok, Snegovaya str., 73',
+      adress: 'Vladivostok, Snegovaya str., 73',
       phoneOne: '8-924-246-45-37',
       phoneTwo: '8-914-707-47-91',
       menuOne: 'ABOUT US',
