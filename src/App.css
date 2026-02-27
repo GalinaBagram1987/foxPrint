@@ -5,6 +5,11 @@
   text-align: center;
 }
 
+.px-10header {
+  padding-left: 10rem; /* или px*/
+  padding-right: 9rem; /* или px*/
+}
+
 .logo-img {
   width: 2.625em;
   height: auto;
@@ -18,6 +23,11 @@
 .headerTwo {
   padding: 1em;
 }
+
+.bg-home {
+  background-color: #BFBFBF;
+}
+
 
 /*.logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);

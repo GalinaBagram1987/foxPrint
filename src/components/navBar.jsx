@@ -45,13 +45,26 @@ const NavBar = () => {
 
   return(
    <nav className="navbar navbar-expand-lg navbar-dark">
-     <div className="collapse navbar-collapse" id="navbarNav">
+    {/* Кнопка-гамбургер */}
+    <button
+      className="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    {/* Меню */}
+    <div className="collapse navbar-collapse px-10header" id="navbarNav">
       <ul className="navbar-nav d-flex align-items-center justify-content-between w-100">
       {sections.map((item) => (
         <li className="nav-item" key={item.id}>
           <button
-            className={`nav-link btn btn-link ${
-              activeSection === item.id ? 'active' : ''
+            className={`nav-link btn btn-link fw-bolder fs-4 ${
+              activeSection === item.id ? 'active-menu' : 'text-white'
               }`}
               onClick={() => handleClick(item.id)}
               >

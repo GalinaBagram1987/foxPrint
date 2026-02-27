@@ -8,9 +8,10 @@ const Header = () => {
 	const { t } = useTranslation();
   return (
     <div className='container'>
+      <div className='header fixed-top'>
       {/* Верх хэдера */}
-      <div className='footerOne'>
-        <div className='row d-flex align-items-center justify-content-between'>
+      <div className='headerOne bg-white p-3 m-0'>
+        <div className='d-flex align-items-center justify-content-between'>
           {/* Первая колонка */}
           <div className='col-lg-4'>
             <div className='d-flex align-items-center justify-content-center gap-2'>
@@ -29,17 +30,17 @@ const Header = () => {
 				  <div className='col-lg-4 d-flex flex-column'>
 					  <div>
 						  <i className='bi bi-telephone fs-6'></i>
-						  <span className='fs-6'>  {t('header.phoneOne')}</span>
+						  <span className='fs-6 fw-bold'>  {t('header.phoneOne')}</span>
 					  </div>
 					  <div>
 						  <i className='bi bi-telephone fs-6'></i>
-						  <span className='fs-6'>  {t('header.phoneTwo')}</span>
+						  <span className='fs-6 fw-bold'>  {t('header.phoneTwo')}</span>
 					  </div>
 				  </div>
           </div>
         </div>
       {/* Низ хэдера */}
-      <div className='headerTwo'>
+      <div className='headerTwo p-0 m-0'>
         <div className='row'>
 				  <div className='col-lg-12 bottomPart bg-black'>
 					  <NavBar />
@@ -47,6 +48,7 @@ const Header = () => {
 			  </div>
       </div>
 			
+      </div>
     </div>
   )
 };

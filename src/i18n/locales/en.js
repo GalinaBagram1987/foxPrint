@@ -12,7 +12,8 @@ const enTransl = {
     },
     home: {
       quote: 'IF YOU ARE NOT NOTICED, YOU ARE LEFT WITH NOTHING. YOU NEED TO BE NOTICED.',
-      author: 'Leo Burnett. Founder of one of the world\'s largest advertising agencies, Leo Burnett Worldwide',
+      authorName: 'Leo Burnett.',
+      authorWork: 'Founder of one of the world\'s largest advertising agencies, Leo Burnett Worldwide',
     },
     services: {
       title: 'Popular services of the production company "FOX PRINT"',
