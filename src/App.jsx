@@ -4,6 +4,7 @@ import Header from './sections/header.jsx';
 import Home from './sections/home.jsx';
 import BackgrBlock from './sections/backgrBlock.jsx';
 import AboutUs from './sections/aboutUs.jsx';
+import Services from './sections/services.jsx';
 import './App.css';
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
       <Home />
       <BackgrBlock />
       <AboutUs />
+      <Services />
 
     </>
   )

@@ -12,66 +12,66 @@ import nineLaser from '../assets/images/nineLaser.png';
 const Services = () => {
   const { t } = useTranslation();
   return (
-    <section>
+    <section className='services shadow-lg px-4'>
       <div className='containerTwo'>
-        <h2 className='fw-bold fs-3'>{t('services.title')}</h2>
+        <h2 className='fw-bold fs-3 pb-5'>{t('services.title')}</h2>
         <div className='row'>
-          <div className='col-12 col-md-6 col-lg-4'>
-            <div className='card'>
+          <div className='col-12 col-md-6 col-lg-4 pb-5'>
+            <div className='card shadow pl-3'>
               <img src={oneBanner} alt='Banner' />
-              <h1></h1>
+              <h1 className='fw-bold fs-3 text-decoration-underline'>{t('services.one')}</h1>
             </div>
           </div>
-        <div className='col-12 col-md-6 col-lg-4'>
-          <div className='card'>
+        <div className='col-12 col-md-6 col-lg-4 pb-5'>
+          <div className='card shadow'>
             <img src={twoSignboard} alt='Signboard' />
-            <h1></h1>
+            <h1 className='fw-bold fs-3 text-decoration-underline'>{t('services.two')}</h1>
           </div>
         </div>
-        <div className='col-12 col-md-6 col-lg-4'>
-          <div className='card'>
+        <div className='col-12 col-md-6 col-lg-4 pb-5'>
+          <div className='card shadow'>
             <img src={threeAvto} alt='Avto' />
-            <h1></h1>
+            <h1 className='fw-bold fs-3 text-decoration-underline'>{t('services.three')}</h1>
           </div>
         </div>
       </div>
       <div className='row'>
-          <div className='col-12 col-md-6 col-lg-4'>
-            <div className='card'>
+          <div className='col-12 col-md-6 col-lg-4 pb-5'>
+            <div className='card shadow'>
               <img src={fourRetail} alt='Retail' />
-              <h1></h1>
+              <h1 className='fw-bold fs-3 text-decoration-underline'>{t('services.four')}</h1>
             </div>
           </div>
-        <div className='col-12 col-md-6 col-lg-4'>
-          <div className='card'>
-            <img> </img>
-            <h1></h1>
+        <div className='col-12 col-md-6 col-lg-4 pb-5'>
+          <div className='card shadow'>
+            <img src={fivePavivlions} alt='Pavivlions' />
+            <h1 className='fw-bold fs-3 text-decoration-underline'>{t('services.five')}</h1>
           </div>
         </div>
-        <div className='col-12 col-md-6 col-lg-4'>
-          <div className='card'>
-            <img> </img>
-            <h1></h1>
+        <div className='col-12 col-md-6 col-lg-4 pb-5'>
+          <div className='card shadow'>
+            <img src={sixNavigations} alt='Navigations' />
+            <h1 className='fw-bold fs-3 text-decoration-underline'>{t('services.six')}</h1>
           </div>
         </div>
       </div>
       <div className='row'>
-          <div className='col-12 col-md-6 col-lg-4'>
-            <div className='card'>
-              <img> </img>
-              <h1></h1>
+          <div className='col-12 col-md-6 col-lg-4 pb-5'>
+            <div className='card shadow'>
+              <img src={sevenPosm} alt='Posm' />
+              <h1 className='fw-bold fs-3 text-decoration-underline'>{t('services.seven')}</h1>
             </div>
           </div>
-        <div className='col-12 col-md-6 col-lg-4'>
-          <div className='card'>
-            <img> </img>
-            <h1></h1>
+        <div className='col-12 col-md-6 col-lg-4 pb-5'>
+          <div className='card shadow'>
+            <img src={eightFraszer} alt='Fraszer' />
+            <h1 className='fw-bold fs-3 text-decoration-underline'>{t('services.eight')}</h1>
           </div>
         </div>
-        <div className='col-12 col-md-6 col-lg-4'>
-          <div className='card'>
-            <img> </img>
-            <h1></h1>
+        <div className='col-12 col-md-6 col-lg-4 pb-5'>
+          <div className='card shadow'>
+            <img src={nineLaser} alt='Laser' />
+            <h1 className='fw-bold fs-3 text-decoration-underline'>{t('services.nine')}</h1>
           </div>
         </div>
       </div>
@@ -79,3 +79,4 @@ const Services = () => {
     </section>
   )
 }
+export default Services

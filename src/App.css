@@ -42,10 +42,21 @@
 }
 
 .aboutUs {
-  padding-top: 14.5625rem;
+  padding-top: 20rem;
   padding-bottom: 3.125rem;
 }
 
+.shadow-lg {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+
+.services {
+  position: absolute;
+  top: 40,6rem;
+  left: 14.75px;
+  background: white;
+}
 @media (max-width: 768px) {
   .logo {
     width: 2rem;
