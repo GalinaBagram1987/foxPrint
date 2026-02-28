@@ -8,9 +8,7 @@ const App = () => {
   return(
     <>
       <Header />
-       <main style={{ paddingTop: '11.94rem' }}>
-        <Home />
-       </main>
+      <Home />
     </>
   )
 }

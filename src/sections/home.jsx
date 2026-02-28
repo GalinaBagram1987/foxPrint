@@ -5,9 +5,9 @@ import home from '../assets/images/home.png';
 const Home = () => {
   const { t } = useTranslation();
   return (
-    <div className='container bg-home'>
-      <div className='home'>
-				<div className='row d-flex align-items-center justify-content-between'>
+    <div className='bg-home'>
+      <div className='container'>
+				<div className='row home d-flex align-items-center justify-content-between'>
 					<div className='col-lg-6 quote'>
 						<p className='fs-1'> {t('home.quote')}</p>
 						<p className='fs-5'>
