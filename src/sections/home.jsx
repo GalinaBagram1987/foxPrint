@@ -5,7 +5,7 @@ import home from '../assets/images/home.png';
 const Home = () => {
   const { t } = useTranslation();
   return (
-    <div className='bg-home'>
+    <section className='bg-home home-padding'>
       <div className='container'>
 				<div className='row home d-flex align-items-center justify-content-between'>
 					<div className='col-lg-6 quote'>
@@ -17,7 +17,7 @@ const Home = () => {
 					<img className='homeImg col-lg-6' src={home} alt='home Image' />
 			 </div>
 			</div>
-    </div>
+    </section>
   )
 }
 

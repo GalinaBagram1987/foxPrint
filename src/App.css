@@ -9,6 +9,11 @@
   text-align: center;
 }
 
+.containerTwo {
+  max-width: 962px;
+  text-align: center;
+}
+
 .logo {
   width: 2.625em;
   height: auto;
@@ -24,6 +29,45 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.home-padding {
+  padding-top: 2.8125rem;
+  padding-bottom: 12.25rem;
+}
+
+.backgrBlock {
+  background-color: #E9E9E9;
+  height: 47.5rem;
+}
+
+.aboutUs {
+  padding-top: 14.5625rem;
+  padding-bottom: 3.125rem;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 2rem;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  span {
+    font-size: 0.875rem;
+  }
+  p {
+    font-size: 0.675rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .logo {
+    width: 2.625rem;
+  }
+  h1 {
+    font-size: 1.25rem;
+  }
 }
 
 /*@keyframes logo-spin {

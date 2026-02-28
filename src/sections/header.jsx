@@ -5,9 +5,9 @@ import logo from '../assets/images/redLogoFox.png';
 
 
 const Header = () => {
-	const { t } = useTranslation();
+  const { t } = useTranslation();
   return (
-    <div className='header w-100'>
+    <section className='header w-100'>
       {/* Верх хэдера */}
       <div className='headerOne d-flex pt-3 pb-3'>
         <div className='container'>
@@ -18,9 +18,9 @@ const Header = () => {
 					    <h1 className='fs-5 mb-0 fw-bold text-start' style={{ whiteSpace: 'pre-line' }}>{t('header.companyName')}</h1>
             </div>
         {/* Вторая колонка */}
-				   <div className='col-12 col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-start gap-2'>
-					    <i className='bi bi-building fs-5 '></i>
-					    <span className='fs-5 mb-0'>{t('header.adress')}</span>
+				   <div className='col-12 col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-start gap-1 d-none d-lg-block'>
+					    {/*<i className='bi bi-building fs-5 '></i>*/}
+					    <p className='fs-5 mb-0'>{t('header.adress')}</p>
 				  </div>
           {/* Третья колонка */}
 				  <div className='col-12 col-lg-4 d-flex flex-column align-items-center align-items-lg-end'>
@@ -44,7 +44,7 @@ const Header = () => {
 				  </div>
 			  </div>
       </div>
-			</div>
+			</section>
   )
 };
 
