@@ -36,7 +36,7 @@ const Services = () => {
           {/* Первый ряд */}
           <div className='row px-4'>
             {servicesData.slice(0, 3).map(service => (
-              <div key={service.id} className='col-12 col-md-6 col-lg-4 pb-5'>
+              <div key={service.id} className='col-12 col-md-12 col-lg-4 pb-5'>
                 <div className='card shadow'>
                   <img src={service.img} alt={service.alt} />
                   <h1 className='fw-bold fs-3 text-decoration-underline'>
@@ -50,7 +50,7 @@ const Services = () => {
           {/* Второй ряд */}
           <div className='row px-4'>
             {servicesData.slice(3, 6).map(service => (
-              <div key={service.id} className='col-12 col-md-6 col-lg-4 pb-5'>
+              <div key={service.id} className='col-12 col-md-12 col-lg-4 pb-5'>
                 <div className='card shadow'>
                   <img src={service.img} alt={service.alt} />
                   <h1 className='fw-bold fs-3 text-decoration-underline'>
@@ -68,7 +68,7 @@ const Services = () => {
           {/* Третий ряд */}
           <div className='row px-4'>
             {servicesData.slice(6, 9).map(service => (
-              <div key={service.id} className='col-12 col-md-6 col-lg-4 pb-5'>
+              <div key={service.id} className='col-12 col-md-12 col-lg-4 pb-5'>
                 <div className='card shadow'>
                   <img src={service.img} alt={service.alt} />
                   <h1 className='fw-bold fs-3 text-decoration-underline'>

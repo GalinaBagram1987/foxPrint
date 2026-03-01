@@ -49,8 +49,8 @@ const Portfolio = () => {
   ]
 
   return (
-    <div className='portfolio bg-home d-flex align-items-center'>
-			<div className="containerTwo">
+    <div className='portfolio backgrBlock d-flex align-items-center py-5'>
+			<div className="container">
 				<p className='fw-bold fs-3'>{t('portfolio.title')}</p>
         <div id="portfolioCarousel" className="carousel slide" data-bs-ride="carousel">
       
