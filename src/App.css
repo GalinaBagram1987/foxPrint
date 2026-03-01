@@ -38,7 +38,6 @@
 
 .backgrBlock {
   background-color: #E9E9E9;
-  height: 47.5rem;
 }
 
 .aboutUs {
@@ -51,12 +50,6 @@
   padding-bottom: 3.125rem;
 }
 
-.services {
-  position: absolute;
-  top: 40,6rem;
-  left: 14.75px;
-  background: white;
-}
 @media (max-width: 768px) {
   .logo {
     width: 2rem;
