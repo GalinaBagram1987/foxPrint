@@ -34,7 +34,7 @@ const Services = () => {
       <div className='secondPart backgrBlock'>
         <div className='containerTwo bg-white'>
           {/* Первый ряд */}
-          <div className='row'>
+          <div className='row px-4'>
             {servicesData.slice(0, 3).map(service => (
               <div key={service.id} className='col-12 col-md-6 col-lg-4 pb-5'>
                 <div className='card shadow'>
@@ -48,7 +48,7 @@ const Services = () => {
           </div>
 
           {/* Второй ряд */}
-          <div className='row'>
+          <div className='row px-4'>
             {servicesData.slice(3, 6).map(service => (
               <div key={service.id} className='col-12 col-md-6 col-lg-4 pb-5'>
                 <div className='card shadow'>
@@ -66,7 +66,7 @@ const Services = () => {
       <div className='thirdPart bg-home'>
         <div className='containerTwo bg-white'>
           {/* Третий ряд */}
-          <div className='row'>
+          <div className='row px-4'>
             {servicesData.slice(6, 9).map(service => (
               <div key={service.id} className='col-12 col-md-6 col-lg-4 pb-5'>
                 <div className='card shadow'>
