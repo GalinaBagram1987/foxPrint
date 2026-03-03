@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 const Contacts = () => {
   const { t } = useTranslation();
   return (
-    <div className='contacts py-5'>
+    <div className='contacts py-5' id='contacts'>
       <div className='container'>
         <p className='fw-bold fs-3'>{t('contacts.title')}</p>
         <div className='row'>

@@ -50,7 +50,9 @@
   padding-top: 3.125rem;
   padding-bottom: 3.125rem;
 }
-
+.carousel-h {
+  height: 40rem;
+}
 @media (max-width: 768px) {
   .logo {
     width: 2rem;

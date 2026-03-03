@@ -49,7 +49,7 @@ const Portfolio = () => {
   ]
 
   return (
-    <div className='portfolio backgrBlock d-flex align-items-center py-5'>
+    <div className='portfolio backgrBlock d-flex align-items-center py-5' id='portfolio'>
 			<div className="container">
 				<p className='fw-bold fs-3'>{t('portfolio.title')}</p>
         <div id="portfolioCarousel" className="carousel slide" data-bs-ride="carousel">
@@ -70,7 +70,7 @@ const Portfolio = () => {
       </div>
 
       {/* Слайды */}
-      <div className="carousel-inner">
+      <div className="carousel-h carousel-inner">
         {carouselImages.map((image, index) => (
           <div
             key={image.id}

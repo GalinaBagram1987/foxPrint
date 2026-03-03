@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 const AboutUs = () => {
 	const { t } = useTranslation();
   return (
-		<div className='aboutUs bg-home d-flex flex-column align-items-center'>
+		<div className='aboutUs bg-home d-flex flex-column align-items-center' id='aboutUs'>
 			<div className="container">
 				<p className='fw-bold fs-3'>{t('aboutUs.title')}</p>
         <p className='fs-4'>{t('aboutUs.textParOne')}</p>

@@ -19,7 +19,6 @@ const Header = () => {
             </div>
         {/* Вторая колонка */}
 				   <div className='col-12 col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-start gap-1 d-none d-lg-block'>
-					    {/*<i className='bi bi-building fs-5 '></i>*/}
 					    <p className='fs-5 mb-0'>{t('header.adress')}</p>
 				  </div>
           {/* Третья колонка */}

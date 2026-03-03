@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 
 const NavBar = () => {
   const { t } = useTranslation();
-  const [activeSection, setActiveSection] = useState('home');
+  const [activeSection, setActiveSection] = useState('aboutUs');
   
   const sections = useMemo(() => [
     { id: 'aboutUs', label: t('header.menuOne') },

@@ -23,7 +23,7 @@ const Services = () => {
     { id: 9, img: nineLaser, alt: 'Laser', key: 'nine' },
   ];
   return (
-    <section className='services'>
+    <section className='services' id='services'>
       {/* Первая часть (заголовок) */}
       <div className='fistPart bg-home'>
         <div className='containerTwo bg-white'>
