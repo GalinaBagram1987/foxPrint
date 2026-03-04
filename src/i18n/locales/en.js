@@ -48,7 +48,6 @@ const enTransl = {
       address: 'Vladivostok, Snegovaya str., 73',
     },
     footer: {
-      rights: '©Bagram Galina',
       year: '2026',
       city: 'Vladivostok',
     },

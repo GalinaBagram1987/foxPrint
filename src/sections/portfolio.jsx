@@ -21,7 +21,6 @@ import twoNine from '../assets/images/portfolio/twoNine.jpg';
 import twoTen from '../assets/images/portfolio/twoTen.jpg';
 import threeOne from '../assets/images/portfolio/threeOne.jpg';
 
-
 const Portfolio = () => {
   const { t } = useTranslation();
   const carouselImages = [
@@ -49,28 +48,13 @@ const Portfolio = () => {
   ]
 
   return (
-    <div className='portfolio backgrBlock d-flex align-items-center py-5' id='portfolio'>
+    <div className='portfolio backgrBlock d-flex align-items-center col-12 py-5' id='portfolio'>
 			<div className="container">
 				<p className='fw-bold fs-3'>{t('portfolio.title')}</p>
         <div id="portfolioCarousel" className="carousel slide" data-bs-ride="carousel">
       
-      {/* Индикаторы */}
-      <div className="carousel-indicators">
-        {carouselImages.map((image, index) => (
-          <button
-            key={image.id}
-            type="button"
-            data-bs-target="#portfolioCarousel"
-            data-bs-slide-to={index}
-            className={index === 0 ? 'active' : ''}
-            aria-current={index === 0 ? 'true' : 'false'}
-            aria-label={`Slide ${index + 1}`}
-          ></button>
-        ))}
-      </div>
-
       {/* Слайды */}
-      <div className="carousel-h carousel-inner">
+      <div className="carousel-inner">
         {carouselImages.map((image, index) => (
           <div
             key={image.id}

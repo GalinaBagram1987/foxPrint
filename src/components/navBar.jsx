@@ -22,7 +22,6 @@ const NavBar = () => {
         if (element) {
           const rect = element.getBoundingClientRect();
           if (rect.top <= 150 && rect.bottom >= 150) {
-            setActiveSection(section.id);
             break;
           }
         }

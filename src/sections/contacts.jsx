@@ -15,7 +15,7 @@ const Contacts = () => {
           <div className='left col-lg-6 col-12'>
             <p className='fw-bold fs-3 text-decoration-underline'>{t('contacts.managerTwoName')}</p>
             <p className='fw-bold fs-3 text-decoration-underline'>{t('contacts.managerTwoTel')}</p>
-            <p className='fw-bold fs-3 text-decoration-underline'>{t('contacts.managerTwoEmail')}</p>
+            <p className='fw-bold fs-3'>{t('contacts.managerTwoEmail')}</p>
           </div>
           <p className='col-12 fw-bold fs-3 text-decoration-underline'>{t('contacts.adress')}</p>
         </div>

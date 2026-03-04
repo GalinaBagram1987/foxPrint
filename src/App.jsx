@@ -8,6 +8,7 @@ import './App.css';
 import Portfolio from './sections/portfolio.jsx';
 import Contacts from './sections/contacts.jsx';
 import Footer from './sections/footer.jsx';
+import ScrollToTop from './components/scrollToTop.jsx';
 
 const App = () => {
   return(
@@ -19,6 +20,7 @@ const App = () => {
       <Portfolio />
       <Contacts />
       <Footer />
+      <ScrollToTop />
     </>
   )
 }
