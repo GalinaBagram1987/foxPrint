@@ -10,8 +10,5 @@ export default defineConfig({
       },
     }),
   ],
-  base:'/foxPrint/',
-  server: {
-    open: true
-  }
+  base:'./',
 })
