@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 25.2.1
           cache: 'npm'
 
       - name: Install dependencies
@@ -26,7 +26,7 @@ jobs:
         run: npm run build
         env:
           # Важно для Vite + GitHub Pages!
-          VITE_BASE: /foxPrint/
+        VITE_BASE: /foxPrint/
       - name: Disable Jekyll
         run: touch ./dist/.nojekyll
 
