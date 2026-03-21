@@ -9,13 +9,13 @@ export default defineConfig({
       },
     }),
   ],
-  base: '/foxPrint/',
+  base: '/',
   build: {
     outDir: 'dist',
     sourcemap: true,
     rollupOptions: {
       output: {
-        manualChunks: undefined
+        manualChunks: undefined,
       }
     }
   }
