@@ -50,6 +50,7 @@ const enTransl = {
     footer: {
       year: '2026',
       city: 'Vladivostok',
+      privacyButton: 'Privacy Policy',
     },
     toast: {
       info: 'We use Yandex Metrica and cookies to analyze traffic and customize ads. By continuing to use this site, you agree to our Privacy Policy.'
@@ -86,6 +87,7 @@ const enTransl = {
       p61: '6.1. The data processing period is limited to the achievement of analytics and marketing purposes. Data in Yandex services is stored in accordance with the regulations of YANDEX LLC.',
       h27: '7. Contact Information',
       p7: 'For all questions regarding this Policy, the User may contact the Operator at the following email address: suvenirka2014@inbox.ru.',
+      backButton: 'Back',
     },
   },
 }
