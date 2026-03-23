@@ -2,6 +2,7 @@ import loadYandexMetrika from "./yandexMetrica.jsx";
 import { useEffect, useState } from "react";
 import CookieConsentBanner from "react-cookie-consent";
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 const CookieConsentComp = () => {
   // дано ли согласие
@@ -33,7 +34,7 @@ const CookieConsentComp = () => {
       buttonStyle={{ background: '#4CAF50', color: 'white', fontSize: '14px' }}
     >
       {t('cookie.info')}
-      <a href="/privacy" style={{ color: '#f5e042' }}>{t('cookie.href')}</a>.
+      <Link to="/privacy" style={{ color: '#f5e042' }}>{t('cookie.href')}</Link>
     </CookieConsentBanner>
   );
 };
