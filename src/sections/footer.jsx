@@ -6,11 +6,11 @@ const Footer = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
   return (
-    <div className='footer bg-black d-flex align-items-center justify-content-between'>
+    <div className='footer bg-black d-flex align-items-center justify-content-between py-3'>
       <div className='container'>
         <div className='row'>
           <button type='button'
-            className='col-lg-4 col-12 fw-bold text-white fs-5 py-2'
+            className='col-lg-4 col-12 fw-bold text-white bg-black fs-5 py-1'
               onClick={() => navigate('/privacy')}>
               {t('footer.privacyButton')}
           </button>

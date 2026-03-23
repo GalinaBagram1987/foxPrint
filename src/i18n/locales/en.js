@@ -53,7 +53,9 @@ const enTransl = {
       privacyButton: 'Privacy Policy',
     },
     toast: {
-      info: 'We use Yandex Metrica and cookies to analyze traffic and customize ads. By continuing to use this site, you agree to our Privacy Policy.'
+      info: 'We use Yandex Metrica and cookies to analyze traffic and customize advertising. By staying on the site, you agree to our ',
+      href: 'Privacy Policy',
+      accept: 'I agree',
     },
     privacy: {
       h1: 'Privacy Policy for the Processing of Personal Data',
