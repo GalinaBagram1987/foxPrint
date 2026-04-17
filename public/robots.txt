@@ -3,6 +3,6 @@
   Disallow: /css/
   Disallow: /previos/
   Allow: /images/
-  Host: https://фокспринт.рф
-  Sitemap: https://фокспринт.рф/sitemap.xml
+  Host: https://xn--h1adkbggfmk.xn--p1ai
+  Sitemap: https://xn--h1adkbggfmk.xn--p1ai/sitemap.xml
 
