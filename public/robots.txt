@@ -1,0 +1,8 @@
+  User-agent: *
+  Disallow: /js/
+  Disallow: /css/
+  Disallow: /previos/
+  Allow: /images/
+  Host: https://фокспринт.рф
+  Sitemap: https://фокспринт.рф/sitemap.xml
+
