@@ -1,0 +1,8 @@
+  User-agent: *
+  Disallow: /js/
+  Disallow: /css/
+  Disallow: /previous/
+  Allow: /images/
+  Host: https://xn--h1adkbggfmk.xn--p1ai
+  Sitemap: https://xn--h1adkbggfmk.xn--p1ai/sitemap.xml
+
