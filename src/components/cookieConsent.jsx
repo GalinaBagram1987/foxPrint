@@ -31,7 +31,6 @@ const CookieConsentComp = () => {
   return (
     <CookieConsentBanner
       location="bottom"                    // баннер снизу
-      containerClasses='cookie-banner-top'
       buttonText={t('cookie.accept')}
       enableDeclineButton={false}
       cookieName='mySiteCookieConsent'
