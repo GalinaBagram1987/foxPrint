@@ -42,8 +42,9 @@ const NavBar = () => {
       behavior: 'smooth',// плавная прокрутка
       block: 'center', 
     });
-    // Добавляем якорь в URL (без перезагрузки страницы)
-    navigate(`#${sectionId}`, { replace: true });
+    // Формируем абсолютный путь
+    const path = sectionId === 'aboutUs' ? '/' : `/${sectionId}`;
+    navigate(`${path}`, { replace: true });
   };
 
   return(

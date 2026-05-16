@@ -5,12 +5,13 @@ import ScrollToTop from './components/scrollToTop.jsx'
 const Layout = ({children}) => {
   return (
     <>
-    <Header />
-    {children}
-    <Footer />
-    <ScrollToTop />
-  </>
+      <Header />
+      {children}
+      <Footer />
+      <ScrollToTop />
+    </>
   )
+  
 };
 
-export default Layout
+export default Layout;
