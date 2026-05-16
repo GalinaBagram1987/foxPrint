@@ -1,9 +1,11 @@
 import { useState, useEffect, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from 'react-router-dom';
 
 const NavBar = () => {
   const { t } = useTranslation();
   const [activeSection, setActiveSection] = useState('aboutUs');
+  const navigate = useNavigate();
   
   const sections = useMemo(() => [
     { id: 'aboutUs', label: t('header.menuOne') },
@@ -40,6 +42,8 @@ const NavBar = () => {
       behavior: 'smooth',// плавная прокрутка
       block: 'center', 
     });
+    // Добавляем якорь в URL (без перезагрузки страницы)
+    navigate(`#${sectionId}`, { replace: true });
   };
 
   return(
