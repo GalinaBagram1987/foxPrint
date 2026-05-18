@@ -43,7 +43,7 @@ const NavBar = () => {
       block: 'center', 
     });
     // Формируем абсолютный путь
-    const path = sectionId === 'aboutUs' ? '/' : `/${sectionId}`;
+    const path = sectionId === 'home' ? '/' : `/${sectionId}`;
     navigate(`${path}`, { replace: true });
   };
 
