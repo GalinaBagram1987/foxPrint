@@ -38,11 +38,11 @@ export default defineConfig({
           }
         }
       },
-        { path: '/services', tags: { title: 'Услуги: широкоформатная печать, вывески, брендирование авто | FoxPrint', description: 'Широкоформатная печать Владивосток, Наружная реклама Владивосток, Брендирование авто Владивосток, Оформление выставок Владивосток', canonical: 'https://xn--h1adkbggfmk.xn--p1ai/services', robots: 'index, follow' } },
-        { path: '/aboutUs', tags: { title: 'О нас | FoxPrint', description: 'Более 10 лет опыта в производстве наружной рекламы во Владивостоке. Полностью собственное оборудование', canonical: '', robots: 'index, follow' } },
-        { path: '/portfolio', tags: { title: 'Портфолио | FoxPrint', description: 'Изготовление и монтаж вывесок во Владивостоке, Брендирование авто, Широкоформатная печать Владивосток, Оформление торговых точек Владивосток', canonical: 'https://xn--h1adkbggfmk.xn--p1ai/portfolio', robots: 'index, follow' } },
-        { path: '/contacts', tags: { title: 'Контакты | FoxPrint', description: 'Широкоформатная печать и наружная реклама г. Владивосток, ул. Снеговая, д. 73, левая сторона здания, 2 этаж', canonical: 'https://xn--h1adkbggfmk.xn--p1ai/contacts', robots: 'index, follow' } },
-        { path: '/privacy', tags: { title: 'Политика | FoxPrint', description: 'Политика кониденциальности', canonical: 'https://xn--h1adkbggfmk.xn--p1ai/privacy', robots: 'noindex, nofollow'  } },
+        { path: '/services', tags: { title: 'Услуги: широкоформатная печать, вывески, брендирование авто | FoxPrint', description: 'Печать баннеров во Владивостоке, Широкоформатная печать во Владивостоке, Наружная реклама Владивосток, Брендирование авто Владивосток, Оформление выставок Владивосток', canonical: 'https://xn--h1adkbggfmk.xn--p1ai/services', robots: 'index, follow' } },
+        { path: '/aboutUs', tags: { title: 'О нас | FoxPrint', description: 'Более 10 лет опыта в производстве наружной рекламы во Владивостоке. Полностью собственное оборудование, Печать баннеров Владивосток, Печать баннеров во Владивостоке', canonical: 'https://xn--h1adkbggfmk.xn--p1ai/aboutUs', robots: 'index, follow' } },
+        { path: '/portfolio', tags: { title: 'Портфолио | FoxPrint', description: 'Печать баннеров во Владивостоке, Изготовление и монтаж вывесок во Владивостоке, Брендирование авто, Широкоформатная печать Владивосток, Оформление торговых точек Владивосток', canonical: 'https://xn--h1adkbggfmk.xn--p1ai/portfolio', robots: 'index, follow' } },
+        { path: '/contacts', tags: { title: 'Контакты | FoxPrint', description: 'Печать баннеров во Владивостоке, Широкоформатная печать и наружная реклама г. Владивосток, ул. Снеговая, д. 73, левая сторона здания, 2 этаж', canonical: 'https://xn--h1adkbggfmk.xn--p1ai/contacts', robots: 'index, follow' } },
+        { path: '/privacy', tags: { title: 'Политика | FoxPrint', description: 'Печать баннеров во Владивостоке, Политика кониденциальности', canonical: 'https://xn--h1adkbggfmk.xn--p1ai/privacy', robots: 'noindex, nofollow'  } },
       ],
       render: (route) => {
         return `<div id="root">Static content for ${route.path}</div>`;
